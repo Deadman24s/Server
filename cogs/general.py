@@ -1,10 +1,3 @@
-"""
-Copyright © Krypton 2019-Present - https://github.com/kkrypt0nn (https://krypton.ninja)
-Description:
-🐍 A simple template to start to code your own and personalized Discord bot in Python
-
-Version: 6.2.0
-"""
 
 import platform
 import random
@@ -117,11 +110,11 @@ class General(commands.Cog, name="general"):
         :param context: The hybrid command context.
         """
         embed = discord.Embed(
-            description="Used [Krypton's](https://krypton.ninja) template",
+            description="hmm",
             color=0xBEBEFE,
         )
         embed.set_author(name="Bot Information")
-        embed.add_field(name="Owner:", value="Krypton#7331", inline=True)
+        embed.add_field(name="Owner:", value="Insane_6969_alt", inline=True)
         embed.add_field(
             name="Python Version:", value=f"{platform.python_version()}", inline=True
         )
